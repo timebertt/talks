@@ -1,0 +1,4 @@
+[[redirects]]
+from = "/reveal-test/*"
+to = "https://timebertt-talk-reveal-test.netlify.app/:splat"
+status = 200
