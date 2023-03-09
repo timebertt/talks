@@ -2,3 +2,8 @@
 from = "/reveal-test/*"
 to = "https://timebertt-talk-reveal-test.netlify.app/:splat"
 status = 200
+
+[[redirects]]
+from = "/credentials-rotation/*"
+to = "https://talk-credentials-rotation.netlify.app/:splat"
+status = 200
