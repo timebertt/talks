@@ -7,3 +7,8 @@ status = 200
 from = "/credentials-rotation/*"
 to = "https://talk-credentials-rotation.netlify.app/:splat"
 status = 200
+
+[[redirects]]
+from = "/controller-sharding-lightning/*"
+to = "https://talk-controller-sharding-lightning.netlify.app/:splat"
+status = 200
