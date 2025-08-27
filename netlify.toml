@@ -12,3 +12,16 @@ status = 200
 from = "/controller-sharding-lightning/*"
 to = "https://talk-controller-sharding-lightning.netlify.app/:splat"
 status = 200
+
+# === talk-controller-sharding ===
+# version for ContainerDays 2025 (branch deploy)
+[[redirects]]
+from = "/controller-sharding/containerdays-2025/*"
+to = "https://containerdays-2025--talk-controller-sharding.netlify.app/:splat"
+status = 200
+
+# main version, not tied to any event
+[[redirects]]
+from = "/controller-sharding/*"
+to = "https://talk-controller-sharding.netlify.app/:splat"
+status = 200
