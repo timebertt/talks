@@ -13,6 +13,11 @@ from = "/controller-sharding-lightning/*"
 to = "https://talk-controller-sharding-lightning.netlify.app/:splat"
 status = 200
 
+[[redirects]]
+from = "/platform-engineering/*"
+to = "https://talk-platform-engineering.netlify.app/:splat"
+status = 200
+
 # === talk-controller-sharding ===
 # version for ContainerDays 2025 (branch deploy)
 [[redirects]]
